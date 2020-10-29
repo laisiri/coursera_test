@@ -19,4 +19,18 @@ CSS Selector
 
         5. CSS Grouping Selector
     The grouping selector selects all HTML elements with the same style definitions. To group selectors, seperate each selector with comma(,).
-             
+
+   2. CSS Combinators
+        Is combinator is something that explains the relationship between the selector.
+        There are four different combinators in CSS:
+
+        1. descendant selector (space)
+        div p it's mean all p element that are desendants of div
+
+        2. child selector (>)
+        div > p it's mean all p element that are children of div.
+
+        3.adjacent sibling selector (+)
+        sibling element must have the same parent element,and "adjacent" means 'immediately following'.
+        
+
