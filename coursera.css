@@ -4,6 +4,9 @@ h1 {
     background-color: aquamarine;
 }
 /*id selector*/
+#simple {
+    background-color: pink;
+}
 #index_1 {
 
     background-color: crimson;
@@ -21,8 +24,15 @@ h1 {
     background-color: darkgrey;
 }
 
+/*p tag with class klass_1*/
+p.klass_1 {
+
+    color:yellow;
+}
+
+
 /*group selector*/
-h1,h2 {
+h2,h3 {
 
     color: white;
 }
