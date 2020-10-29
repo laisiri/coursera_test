@@ -7,11 +7,27 @@
     <link rel="stylesheet" href="coursera.css">
 </head>
 <body>
-    <h1>This is h1 tag</h1>
-    <p id='index_1'>This is p tag with id "index_1"</p>
-    <p class='klass_1'>This is p tag with class 'Klass_1'</p>
-    <p id='index_2'>This is p tag with id "index_2"</p>
-    <h2 class="klass_1">This is h2 tag with class 'Klass_1'</h2>
+    <div id='simple'>
+        <h1>Simple Selector</h1>
+        <h2>This is h1 tag</h1>
+        <p id='index_1'>This is p tag with id "index_1"</p>
+        <p class='klass_1'>This is p tag with class 'Klass_1'</p>
+        <p id='index_2'>This is p tag with id "index_2"</p>
+        <h3 class="klass_1">This is h2 tag with class 'klass_1'</h2>
+        <p class='klass_1'>This is p tag with class 'klass_1'</p>
+    </div>
+
+    <div id='combinator'>
+        <h1>Combinator</h1>
+        <h2>Descendant Selector</h2>
+        <div>
+            <p>p element child of div</p>
+            <section>
+                <p>p element is child of section and descendants of div</p>
+            </section>
+        </div>
+
+    </div>
     <script src="coursera.js"></script>
 </body>
 </html>
