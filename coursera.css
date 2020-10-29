@@ -1,0 +1,35 @@
+/*element selector*/
+h1 {
+
+    background-color: aquamarine;
+}
+/*id selector*/
+#index_1 {
+
+    background-color: crimson;
+
+}
+#index_2 {
+
+    background-color: blueviolet;
+
+}
+
+/*class selector*/
+.klass_1 {
+
+    background-color: darkgrey;
+}
+
+/*group selector*/
+h1,h2 {
+
+    color: white;
+}
+/*universal selector*/
+* {
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+    
+}
